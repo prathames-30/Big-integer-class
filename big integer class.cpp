@@ -1,4 +1,7 @@
-/*ll modpow(ll n,ll p,ll k)
+#define ll long long
+#define rep(i,a,b) for(ll i = a;i<b;i++)
+#define repr(i,a,b) for(ll i = a;i>b;i--)
+ll modpow(ll n,ll p,ll k)
 {
     n = n%k;
     ll res = 1;
@@ -10,7 +13,7 @@
         p = p/2;
     }
     return res;
-}*/
+}
 class bigint
 {
 public:
